@@ -1,0 +1,393 @@
+/*  CSS RESET */
+
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding: 0px;
+
+}
+
+/* Utility Class */
+
+.btn{
+    background-color: maroon;
+    color: aliceblue;
+    border: 0px transparent;
+    padding: 15px;
+}
+
+.btn a{
+    color:aliceblue;
+    text-decoration: none;
+}
+/* Take me there button */
+
+#tmt_btn{
+
+    margin-top: 50px;
+} 
+
+#aboutmebtn{
+    margin-top: 1.2rem;
+}
+
+/* View More Buttons */
+
+.viewmore_{
+    margin-top: 10px;
+
+}
+
+/* Primary Font */
+.font_primary{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+
+/* Webpage Header */
+
+.top_header{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 186, 57);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_header_left{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.top_header_left_logo{
+    display:flex;
+    padding: 30px;
+}
+
+.top_header_left_logo h1{
+    font-size: 1.7rem;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgb(31, 31, 31);
+}
+
+.top_header_right{
+    display:flex;
+}
+
+
+
+/* TOP LEFT NAVBAR */
+
+.navbar{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    padding: 30px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    color: black;
+    background-color: orange;
+}
+
+/* Section 1  */
+
+.sec1{
+    background-color: rgb(255, 186, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+
+}
+
+.sec1_content_left{
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sec1_content_left p{
+    font-size: 1.3rem;
+    margin: 20px;
+    margin-left: 0px;
+}
+.sec1_content_left h1{
+    font-size: 2.9rem;
+}
+
+.sec1_content_left h2{
+    font-size: 2.9rem;
+    font-weight: 200;
+}
+
+/* Section 2 Img Container */
+
+.section2{
+
+}
+
+.section2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 30px;
+}
+
+.section2 p{
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.image_container{
+
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.image_items{
+    margin: 1.2rem;
+    width: 100%;
+  
+   
+}
+
+.image_container img{
+    width: 100%;
+    height: 300px;
+  
+    
+    
+
+}
+
+/* SECTION 3 */
+
+.sec3{
+    width: 100%;
+    background-color: orange;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3_in{
+    display:flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.sec3_in{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+}
+
+.sec3 button{
+    margin-top: 20px;
+
+}
+
+/* Section 4 */
+
+#aboutme_sec_text{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 35px;
+}
+
+.about_flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.flex-left{
+
+    width: 48%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.3rem;
+    padding: 2.7rem;
+    margin-top: 20px;  
+}
+
+.flex-right{
+
+    width: 48%;
+    display: inline-flex;
+    margin: auto;
+}
+
+.flex-right img{
+    width: 50%;
+    align-self: center;
+    margin: auto;
+    display: inline-block;
+}
+
+/* FOOTER */
+
+footer{
+    width:100%;
+    background-color: black;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 45px;
+    padding: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* MEDIA QUERIES  */
+
+/* Media Query for Phone Devices */
+
+@media screen and (max-width: 480px) {
+
+    .top_header_right{
+        font-size: 0.9rem;
+    }
+
+    .navbar ul li{
+        padding: 14px;
+    }
+    .sec1_content_left h1{
+        font-size: 2.6rem;
+    }
+    .sec1_content_left h2{
+        font-size: 2.2rem;
+        margin-top: 20px;
+    }
+
+/* Section 1 Media Queries */
+
+.image_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image_container img{
+    width:85%;
+
+}
+
+.image_items{
+    
+   
+   display:flex;
+   flex-direction: column;    
+   justify-self: center;
+   align-self: center;
+
+}
+
+.image_items img{
+    margin: auto;
+
+}
+
+.image_items p{
+    text-align: center;
+}
+
+
+
+/* Section4 */
+
+.about_flex{
+
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.flex-left{
+    width: 100%;
+}
+
+.flex-right{
+    width: 100%;
+}
+}
+
+/*  Media Query for Tablet Devices */
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    /* Section1 Media Queries */
+
+    .image_container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .image_items img{
+        max-width:480px;
+        margin: auto;
+    
+    }
+    
+    .image_items{
+
+        display:flex;
+        flex-direction: column;    
+       justify-self: center;
+       align-self: center;
+    }
+
+    .image_items p{
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
