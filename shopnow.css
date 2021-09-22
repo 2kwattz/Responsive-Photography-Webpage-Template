@@ -1,0 +1,198 @@
+/*  CSS RESET */
+
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding: 0px;
+
+}
+
+/* Utility Class */
+
+.btn{
+    background-color: maroon;
+    color: aliceblue;
+    border: 0px transparent;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.btn a{
+    color:aliceblue;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    background-color: rgb(207, 0, 0);
+}
+
+
+/* Primary Font */
+.font_primary{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+
+/* Webpage Header */
+
+.top_header{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 186, 57);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_header_left{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.top_header_left_logo{
+    display:flex;
+    padding: 30px;
+}
+
+.top_header_left_logo h1{
+    font-size: 1.7rem;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgb(31, 31, 31);
+}
+
+.top_header_right{
+    display:flex;
+}
+
+
+
+/* TOP LEFT NAVBAR */
+
+.navbar{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    padding: 30px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    color: black;
+    background-color: orange;
+}
+
+/* FOOTER */
+
+footer{
+    width:100%;
+    background-color: black;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 45px;
+    padding: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* SECTION 1  */
+
+/* Image Cover Class */
+
+.img_cover{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    background-image: url('http://www.returnofkings.com/wp-content/uploads/2014/02/article-2151058-1355F74C000005DC-567_634x594.jpg');
+    /* background-image: url('../img/cover.jpg');
+    background-position: top; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 2.6rem;
+   background-color: black;
+   opacity: 95%;
+}
+
+.img_cover h1{
+
+    color: aliceblue;
+    width:100%;
+    text-align: center;
+}
+
+
+.img_cover img{
+    width: 100%;
+    
+
+}
+
+/* Section2 Shopping Bag */
+
+.shopping_bag{
+    
+    display:flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+/* Shop Items */
+
+.shop_items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+   
+    
+}
+
+.shop_items img{
+    width: 100%;
+    
+}
+
+/* Shop Items Title */
+
+.shop_items span{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Shop Item Button Properties */
+
+
+

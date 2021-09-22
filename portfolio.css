@@ -1,0 +1,161 @@
+/*  CSS RESET */
+
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding: 0px;
+
+}
+
+/* Utility Class */
+
+.btn{
+    background-color: maroon;
+    color: aliceblue;
+    border: 0px transparent;
+    padding: 15px;
+}
+
+.btn a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgb(207, 0, 0);
+}
+
+
+
+/* Primary Font */
+.font_primary{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+
+/* Webpage Header */
+
+.top_header{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 186, 57);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_header_left{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.top_header_left_logo{
+    display:flex;
+    padding: 30px;
+}
+
+.top_header_left_logo h1{
+    font-size: 1.7rem;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgb(31, 31, 31);
+}
+
+.top_header_right{
+    display:flex;
+}
+
+
+
+/* TOP LEFT NAVBAR */
+
+.navbar{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    padding: 30px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    color: black;
+    background-color: orange;
+}
+
+.sec1{
+    background-color: rgb(255, 186, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+
+}
+
+.sec1_content_left{
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sec1_content_left p{
+    font-size: 1.3rem;
+    margin: 20px;
+    margin-left: 0px;
+}
+.sec1_content_left h1{
+    font-size: 2.4rem;
+}
+
+/* Image Container Class */
+
+.image_container{
+
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+.image-items{
+    margin: 5px;
+}
+
+.image-items img{
+
+    height: 200px;
+}
+
+/* FOOTER */
+
+footer{
+    width:100%;
+    background-color: black;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 45px;
+    padding: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
